@@ -5,7 +5,7 @@ category: Desserts
 prep_time: 15 minutes
 cook_time: 12 minutes
 servings: 24 cookies
-image: /assets/images/chocolate-chip-cookies.jpg
+image: 
 ingredients:
   - 2¼ cups all-purpose flour
   - 1 tsp baking soda

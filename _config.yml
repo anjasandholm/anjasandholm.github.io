@@ -1,7 +1,7 @@
-title: Your Recipe Collection
-description: A collection of cherished recipes
+title: Anja's Recipes
+description: A collection of good food
 baseurl: "" # Leave empty if hosting at username.github.io
-url: "" # Your GitHub Pages URL
+url: "anjasandholm.github.io" # Your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
