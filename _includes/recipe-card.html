@@ -1,0 +1,23 @@
+<article class="recipe-card">
+    <a href="{{ recipe.url | relative_url }}">
+        {% if recipe.image %}
+        <div class="recipe-card-image">
+            <img src="{{ recipe.image | relative_url }}" alt="{{ recipe.title }}">
+        </div>
+        {% endif %}
+        <div class="recipe-card-content">
+            <h3>{{ recipe.title }}</h3>
+            {% if recipe.description %}
+            <p>{{ recipe.description }}</p>
+            {% endif %}
+            <div class="recipe-card-meta">
+                {% if recipe.prep_time %}
+                <span>{{ recipe.prep_time }}</span>
+                {% endif %}
+                {% if recipe.category %}
+                <span class="category">{{ recipe.category }}</span>
+                {% endif %}
+            </div>
+        </div>
+    </a>
+</article>

@@ -1,0 +1,24 @@
+title: Your Recipe Collection
+description: A collection of cherished recipes
+baseurl: "" # Leave empty if hosting at username.github.io
+url: "" # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"

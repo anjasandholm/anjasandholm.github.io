@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="hero">
+    <h1>Welcome to My Recipe Collection</h1>
+    <p>A carefully curated collection of tried and true recipes that bring warmth to any table.</p>
+</section>
+
+<section class="featured-recipes">
+    <h2 class="section-title">Recent Recipes</h2>
+    <div class="recipes-grid">
+        {% for recipe in site.recipes limit:6 %}
+            {% include recipe-card.html recipe=recipe %}
+        {% endfor %}
+    </div>
+</section>

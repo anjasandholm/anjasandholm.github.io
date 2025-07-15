@@ -1,0 +1,140 @@
+.recipe-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.recipe-card a {
+    display: block;
+    color: inherit;
+}
+
+.recipe-card-image {
+    height: 200px;
+    overflow: hidden;
+    background: var(--color-accent-light);
+}
+
+.recipe-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-card-content {
+    padding: 1.5rem;
+}
+
+.recipe-card h3 {
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+}
+
+.recipe-card p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.recipe-card-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.recipe-card-meta .category {
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+.recipe {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.recipe-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.recipe-meta {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.recipe-image {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recipe-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.ingredients {
+    margin-bottom: 3rem;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredients li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.ingredients li:last-child {
+    border-bottom: none;
+}
+
+.instructions ol {
+    padding-left: 1.5rem;
+}
+
+.instructions li {
+    margin-bottom: 1rem;
+}
+
+.notes {
+    background: var(--color-background);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.recipe-footer {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.back-link {
+    font-weight: 500;
+}
+
+@media print {
+    .site-header, .site-footer, .recipe-footer {
+        display: none;
+    }
+    
+    .recipe-content {
+        box-shadow: none;
+    }
+}

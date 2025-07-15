@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<article class="recipe">
+    <header class="recipe-header">
+        <h1>{{ page.title }}</h1>
+        <div class="recipe-meta">
+            {% if page.prep_time %}
+            <span class="meta-item">
+                <strong>Prep:</strong> {{ page.prep_time }}
+            </span>
+            {% endif %}
+            {% if page.cook_time %}
+            <span class="meta-item">
+                <strong>Cook:</strong> {{ page.cook_time }}
+            </span>
+            {% endif %}
+            {% if page.servings %}
+            <span class="meta-item">
+                <strong>Servings:</strong> {{ page.servings }}
+            </span>
+            {% endif %}
+        </div>
+    </header>
+
+    {% if page.image %}
+    <div class="recipe-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <div class="recipe-content">
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                {% for ingredient in page.ingredients %}
+                <li>{{ ingredient }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section class="instructions">
+            <h2>Instructions</h2>
+            {{ content }}
+        </section>
+
+        {% if page.notes %}
+        <section class="notes">
+            <h3>Notes</h3>
+            <p>{{ page.notes }}</p>
+        </section>
+        {% endif %}
+    </div>
+
+    <div class="recipe-footer">
+        <a href="{{ '/recipes' | relative_url }}" class="back-link">← Back to all recipes</a>
+    </div>
+</article>
