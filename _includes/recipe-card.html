@@ -12,10 +12,15 @@
             {% endif %}
             <div class="recipe-card-meta">
                 {% if recipe.prep_time %}
-                <span>{{ recipe.prep_time }}</span>
+                <span class="meta-item"> Prep: {{ recipe.prep_time }}</span>
+                {% endif %}
+                {% if recipe.cook_time %}
+                <span class="meta-item">
+                    Cook: {{ recipe.cook_time }}
+                </span>
                 {% endif %}
                 {% if recipe.category %}
-                <span class="category">{{ recipe.category }}</span>
+                <p><span class="category">{{ recipe.category }}</span></p>
                 {% endif %}
             </div>
         </div>

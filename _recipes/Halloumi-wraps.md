@@ -1,5 +1,5 @@
 ---
-title: Halloumi wraps
+title: halloumi wraps
 description: Trader Joe's only sells halloumi in the summer
 category: Meal
 prep_time: 30 minutes

@@ -1,5 +1,5 @@
 ---
-title: Salmon with slaw
+title: salmon with slaw
 description: Not a real slaw
 category: Meal
 prep_time: 30 minutes
@@ -13,4 +13,5 @@ ingredients:
   - sriracha mayo
 ---
 
-![bowl](/assets/images/salmon-bowl.jpeg)
+
+Best with oven broiled salmon, but can fry or airfry too.

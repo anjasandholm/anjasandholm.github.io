@@ -3,11 +3,11 @@ layout: default
 ---
 <section class="hero">
     <h1>Welcome to my recipe collection</h1>
-    <p>All my favorite recipes: some borrowed from elsewhere, some created right inside my brain.</p>
+    <p>My favorite recipes. Some borrowed from elsewhere, some created right inside my brain.</p>
 </section>
 
 <section class="featured-recipes">
-    <h2 class="section-title">Recent Recipes</h2>
+    <h2 class="section-title">Recipes</h2>
     <div class="recipes-grid">
         {% for recipe in site.recipes limit:6 %}
             {% include recipe-card.html recipe=recipe %}

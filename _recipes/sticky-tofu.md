@@ -1,6 +1,6 @@
 ---
-title: Sticky tofu bowls
-description: 
+title: sticky tofu bowls
+description: Always hits the spot
 category: Meal
 prep_time: 30 minutes
 cook_time: 10 minutes
