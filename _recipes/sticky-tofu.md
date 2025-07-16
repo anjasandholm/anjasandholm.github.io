@@ -4,7 +4,7 @@ description:
 category: Meal
 prep_time: 30 minutes
 cook_time: 10 minutes
-servings: 2 people
+servings:
 image: /assets/images/tofu-bowl.jpeg
 ingredients:
   - tofu

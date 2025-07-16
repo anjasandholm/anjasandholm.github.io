@@ -4,7 +4,7 @@ description: Trader Joe's only sells halloumi in the summer
 category: Meal
 prep_time: 30 minutes
 cook_time: 30 minutes
-servings: 2 people
+servings:
 image: /assets/images/hallomi-wrap.jpeg
 ingredients:
   - grilled halloumi
