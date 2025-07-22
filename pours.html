@@ -4,7 +4,7 @@ title: Pours
 permalink: /pours/
 ---
 
-<div class="photo-gallery">
+<div class="photo-gallery masonry">
     {% for image in site.static_files %}
         {% if image.path contains '/assets/images/pours/' %}
             <div class="gallery-item">
