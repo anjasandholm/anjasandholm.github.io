@@ -4,7 +4,7 @@ description: Fast and yum
 category: Meal
 prep_time: 5 minutes
 cook_time: 20 minutes
-image: 
+image: assets/images/curry.jpeg
 ingredients:
   - sesame oil
   - onion

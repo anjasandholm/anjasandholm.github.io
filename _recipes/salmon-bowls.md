@@ -9,7 +9,14 @@ image: /assets/images/salmon-bowl.jpeg
 ingredients:
   - broiled salmon - soy sauce - sesame seed oil - garlic powder - onion powder - sriracha - brown sugar
   - rice
-  - edamame - cucumber - cilantro - mango - avocado - red onion - bell pepper - garlic
+  - edamame
+  - cucumber
+  - cilantro
+  - mango
+  - avocado
+  - red onion
+  - bell pepper
+  - garlic
   - sriracha mayo
 ---
 
