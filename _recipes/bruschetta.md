@@ -1,5 +1,5 @@
 ---
-title: bruscheeta
+title: bruschetta
 description: Yummy with brie
 category: Meal
 prep_time: 10 minutes
