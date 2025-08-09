@@ -22,3 +22,5 @@ ingredients:
 
 
 Best with oven broiled salmon, but can fry or airfry too.
+
+![slaw](/assets/images/edamameslaw.jpeg)
