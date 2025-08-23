@@ -1,5 +1,5 @@
 ---
-title: Shakshuka
+title: shakshuka
 description: Best Sunday breakfast
 category: Breakfast
 prep_time: 10 minutes
