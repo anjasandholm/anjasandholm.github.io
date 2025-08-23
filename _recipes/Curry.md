@@ -1,5 +1,5 @@
 ---
-title: Curry
+title: curry
 description: Fast and yum
 category: Meal
 prep_time: 5 minutes

@@ -1,6 +1,6 @@
 ---
 title: brown butter dark chocolate chip cookies
-description: make lots of dough and store in clumps in freezer
+description: Make lots of dough and store in clumps in freezer
 category: Dessert
 prep_time: 3 hours (inactive time)
 cook_time: 12 minutes

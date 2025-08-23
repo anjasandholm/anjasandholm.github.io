@@ -1,6 +1,6 @@
 ---
 title: eggs and yogurt
-description: yummy breakfast
+description: Yummy breakfast
 category: Breakfast
 prep_time: 10 minutes
 cook_time: 0 minutes

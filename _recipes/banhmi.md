@@ -1,7 +1,7 @@
 ---
 title: banh mi
 description: (fake banh mi)
-category: meal
+category: Meal
 prep_time: 10 minutes
 cook_time: 10 minutes
 servings:

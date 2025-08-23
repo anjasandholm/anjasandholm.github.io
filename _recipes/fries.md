@@ -1,6 +1,6 @@
 ---
 title: fries
-description: quick and delicious addition to many meals
+description: Quick and delicious addition to many meals
 category: Side
 prep_time: 30 minutes
 cook_time: 20 minutes
